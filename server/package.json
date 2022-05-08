@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node dist/index.js",
     "start:dev": "ts-node-dev --transpile-only --no-notify --respawn --ignore-watch node_modules src/index.ts",
+    "build": "tsc",
     "test": "jest"
   },
   "keywords": [],
